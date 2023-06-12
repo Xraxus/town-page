@@ -1,0 +1,122 @@
+body{
+  font-family: 'Heebo', sans-serif;
+  color: #f8f8f8;
+  background-color: #fdebd5;
+  margin: 0;
+}
+
+
+.hero{
+  background-image: url("images/krakow.jpg");
+  background-size: cover;
+  background-position: center 40%;
+  height: 60vh;
+  width: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  transition: background-image 500ms;
+}
+
+.hero:hover{
+  background-image: url("images/krakow-old.jpg");
+  background-size: cover;
+  background-position: center 60%;
+  
+}
+
+.hero h1{
+  font-size: 64px;
+  text-shadow: 0 0 6px #382b20;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.hero h2{
+  font-size: 32px;
+  text-shadow: 0 0 6px #382b20;
+  border-radius: 10px;
+  margin-top: 0;
+}
+
+h1,h2,h3,h4,h5,p{
+  text-shadow: 0 0 1px #212227;
+}
+
+.activities{
+  min-height: 350px;
+  text-align: center;
+  color: #20170e;
+}
+
+.activities-wrapper{
+  margin: 20px auto;
+  width: 70%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.activities h3{
+  font-size: 32px;
+}
+
+.activities-wrapper > div{
+ width: 30%;
+}
+
+.activities img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.footer{
+  padding: 50px 0 20px 0 ;
+  background: #f8f8f8;
+}
+
+.guide-card{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 15px 20px 15px ;
+  max-width: 500px;
+  align-items: center;
+  background-color: #dae9fa;
+  color: #27292c;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+  border-bottom: 5px solid #8aa7c7;
+  border-right: 5px solid #8aa7c7;
+}
+
+.guide-card img{
+  width: 200px;
+  border-radius: 10px;
+  transform: scale(-1, 1);
+}
+
+.guide-card div{
+  width: 200px;
+  border-radius: 20px;
+}
+
+.guide-card div h4{
+  font-size: 24px;
+  margin: 5px 0;
+}
+.guide-card div h5{
+  font-size: 20px;
+  margin: 10px 0;
+}
+.guide-card div p{
+  margin: 15px 0;
+}
+
+span{
+  text-decoration: underline;
+}
